@@ -1,0 +1,20 @@
+{
+  "routes": [
+    {
+      "src": "/ar",
+      "dest": "/momentadev/browser/ar/index.html"
+    },
+    {
+      "src": "/ar/(.*)",
+      "dest": "/momentadev/browser/ar/$1"
+    },
+    {
+      "src": "/",
+      "dest": "/momentadev/browser/en/index.html"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/momentadev/browser/en/$1"
+    }
+  ]
+}
