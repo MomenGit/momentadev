@@ -1,0 +1,51 @@
+<div class="p-6">
+  <div class="mb-8">
+    <details class="dropdown capitalize">
+      <summary class="btn m-1 bg-transparent">
+        Filter by tags
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          height="24px"
+          viewBox="0 -960 960 960"
+          width="24px"
+          fill="fill-current"
+        >
+          <path
+            d="M459-381 314-526q-3-3-4.5-6.5T308-540q0-8 5.5-14t14.5-6h304q9 0 14.5 6t5.5 14q0 2-6 14L501-381q-5 5-10 7t-11 2q-6 0-11-2t-10-7Z"
+          />
+        </svg>
+      </summary>
+      <div
+        class="form-control dropdown-content menu bg-base-100 rounded-box z-[1] w-52 p-2 shadow"
+      >
+        <label class="label cursor-pointer justify-stretch">
+          <input type="checkbox" checked="checked" class="checkbox" />
+          <span class="label-text">JavaScript</span>
+        </label>
+      </div>
+    </details>
+  </div>
+  <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 my-8">
+    @for (item of listaia; track $index) {
+    <div class="card bg-base-100 max-w-96 shadow-xl">
+      <figure>
+        <img
+          src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+          alt="Shoes"
+        />
+      </figure>
+      <div class="card-body">
+        <h2 class="card-title">
+          Shoes!
+          <div class="badge badge-secondary">NEW</div>
+        </h2>
+        <p>If a dog chews shoes whose shoes does he choose?</p>
+        <div class="card-actions justify-end">
+          <div class="badge badge-outline">Fashion</div>
+          <div class="badge badge-outline">Products</div>
+        </div>
+      </div>
+    </div>
+    }
+  </div>
+</div>
