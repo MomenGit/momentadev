@@ -4,6 +4,10 @@
   "newProjectRoot": "projects",
   "projects": {
     "momentadev": {
+      "i18n": {
+        "sourceLocale": "en-US",
+        "locales": { "ar-EG": "src/locale/messages.ar.xlf" }
+      },
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,12 +17,11 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
+            "localize": true,
             "outputPath": "dist/momentadev",
             "index": "src/index.html",
             "browser": "src/main.ts",
-            "polyfills": [
-              "zone.js"
-            ],
+            "polyfills": ["zone.js", "@angular/localize/init"],
             "tsConfig": "tsconfig.app.json",
             "assets": [
               {
@@ -26,9 +29,7 @@
                 "input": "public"
               }
             ],
-            "styles": [
-              "src/styles.css"
-            ],
+            "styles": ["src/styles.css"],
             "scripts": [],
             "server": "src/main.server.ts",
             "prerender": true,
@@ -38,6 +39,7 @@
           },
           "configurations": {
             "production": {
+              "localize": ["en-US", "ar-EG"],
               "budgets": [
                 {
                   "type": "initial",
@@ -53,6 +55,7 @@
               "outputHashing": "all"
             },
             "development": {
+              "localize": false,
               "optimization": false,
               "extractLicenses": false,
               "sourceMap": true
@@ -80,7 +83,8 @@
           "options": {
             "polyfills": [
               "zone.js",
-              "zone.js/testing"
+              "zone.js/testing",
+              "@angular/localize/init"
             ],
             "tsConfig": "tsconfig.spec.json",
             "assets": [
@@ -89,9 +93,7 @@
                 "input": "public"
               }
             ],
-            "styles": [
-              "src/styles.css"
-            ],
+            "styles": ["src/styles.css"],
             "scripts": []
           }
         }
