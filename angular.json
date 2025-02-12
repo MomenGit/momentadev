@@ -5,8 +5,8 @@
   "projects": {
     "momentadev": {
       "i18n": {
-        "sourceLocale": "en-US",
-        "locales": { "ar-EG": "src/locale/messages.ar.xlf" }
+        "sourceLocale": "en",
+        "locales": { "ar": "src/locale/messages.ar.xlf" }
       },
       "projectType": "application",
       "schematics": {},
@@ -39,7 +39,7 @@
           },
           "configurations": {
             "production": {
-              "localize": ["en-US", "ar-EG"],
+              "localize": ["en", "ar"],
               "budgets": [
                 {
                   "type": "initial",
