@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en-US" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="5669462994581337154" datatype="html">
+        <source>Contact Me</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/portfolio/components/contact/contact.component.html</context>
+          <context context-type="linenumber">6,7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3863895904514471133" datatype="html">
+        <source> Have questions? Send me a message and I&apos;ll get back to you as soon as possible. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/portfolio/components/contact/contact.component.html</context>
+          <context context-type="linenumber">8,9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8953033926734869941" datatype="html">
+        <source>Name</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/portfolio/components/contact/contact.component.html</context>
+          <context context-type="linenumber">15,16</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4768749765465246664" datatype="html">
+        <source>Email</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/portfolio/components/contact/contact.component.html</context>
+          <context context-type="linenumber">27,28</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8066608938393600549" datatype="html">
+        <source>Message</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/portfolio/components/contact/contact.component.html</context>
+          <context context-type="linenumber">39,40</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4943998242904350511" datatype="html">
+        <source> Submit </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/portfolio/components/contact/contact.component.html</context>
+          <context context-type="linenumber">47</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2821179408673282599" datatype="html">
+        <source>Home</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/portfolio/components/header/header.component.html</context>
+          <context context-type="linenumber">30</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/portfolio/components/header/header.component.html</context>
+          <context context-type="linenumber">73</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1726363342938046830" datatype="html">
+        <source>About</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/portfolio/components/header/header.component.html</context>
+          <context context-type="linenumber">38</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/portfolio/components/header/header.component.html</context>
+          <context context-type="linenumber">81</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9201103587777813545" datatype="html">
+        <source>Portfolio</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/portfolio/components/header/header.component.html</context>
+          <context context-type="linenumber">45,46</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/portfolio/components/header/header.component.html</context>
+          <context context-type="linenumber">88,89</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7922989125096435449" datatype="html">
+        <source>Contact</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/portfolio/components/header/header.component.html</context>
+          <context context-type="linenumber">53,54</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/portfolio/components/header/header.component.html</context>
+          <context context-type="linenumber">96,97</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8609998827092242363" datatype="html">
+        <source><x id="INTERPOLATION" equiv-text="{{ &quot;@&quot; }}"/>Blog</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/portfolio/components/header/header.component.html</context>
+          <context context-type="linenumber">57,58</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/portfolio/components/header/header.component.html</context>
+          <context context-type="linenumber">101,103</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6543616475411696588" datatype="html">
+        <source> Assalam Alikum </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/portfolio/components/home/home.component.html</context>
+          <context context-type="linenumber">6,7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5647053905149090663" datatype="html">
+        <source> I am <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;text-primary font-bold font-montserrat&quot;
+            &gt;"/>Moamen Khadra<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span
+          &gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/portfolio/components/home/home.component.html</context>
+          <context context-type="linenumber">9,14</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6901531604019957317" datatype="html">
+        <source>Software Engineer</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/portfolio/components/home/home.component.html</context>
+          <context context-type="linenumber">16,17</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4759861954023802265" datatype="html">
+        <source>Full-stack Developer</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/portfolio/components/home/home.component.html</context>
+          <context context-type="linenumber">17,18</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2044064478574277786" datatype="html">
+        <source>UX/UI Designer</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/portfolio/components/home/home.component.html</context>
+          <context context-type="linenumber">18,19</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6103376295388026720" datatype="html">
+        <source> A passionate <x id="START_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;em class=&quot;font-medium&quot;&gt;"/>Software Engineer<x id="CLOSE_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;/em&gt;"/> with a flair for <x id="START_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;em class=&quot;font-medium&quot;&gt;"/>innovative problem-solving<x id="CLOSE_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;/em&gt;"/>. From building intuitive web apps to crafting seamless user interfaces, I’m always up for a challenge. Whether it&apos;s developing dynamic websites or creating impactful backend systems, I bring <x id="START_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;em class=&quot;font-medium&quot;&gt;"/>creativity<x id="CLOSE_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;/em&gt;"/>, <x id="START_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;em class=&quot;font-medium&quot;&gt;"/>precision<x id="CLOSE_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;/em&gt;"/>, and <x id="START_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;em class=&quot;font-medium&quot;&gt;"/>growth<x id="CLOSE_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;/em&gt;"/> to every project I work on. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/portfolio/components/home/home.component.html</context>
+          <context context-type="linenumber">21,30</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4718295097174201597" datatype="html">
+        <source> ⚒ ⚙ Let’s build something amazing together! ⚙ ⚒ </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/portfolio/components/home/home.component.html</context>
+          <context context-type="linenumber">31,32</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8279470915915712707" datatype="html">
+        <source> Check Portfolio </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/portfolio/components/home/home.component.html</context>
+          <context context-type="linenumber">36,37</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="290735093992020324" datatype="html">
+        <source>OR</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/portfolio/components/home/home.component.html</context>
+          <context context-type="linenumber">38,39</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3265250603400790440" datatype="html">
+        <source> Get Started </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/portfolio/components/home/home.component.html</context>
+          <context context-type="linenumber">40,41</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4579496777570550463" datatype="html">
+        <source>Social</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/footer/footer.component.html</context>
+          <context context-type="linenumber">12,13</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
