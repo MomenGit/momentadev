@@ -1,0 +1,12 @@
+<div class="dropdown uppercase">
+  <div tabindex="0" role="button" class="btn btn-link m-1 font-normal" i18n>
+    {{ currentLang }}
+  </div>
+  <ul tabindex="0" class="dropdown-content menu rounded-box z-[1] p-2 shadow">
+    @for (item of langs; track $index) {
+    <li>
+      <button class="uppercase" (click)="switchLang(item)">{{ item }}</button>
+    </li>
+    }
+  </ul>
+</div>
