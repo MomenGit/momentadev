@@ -11,7 +11,7 @@
   ],
   "routes": [
     {
-      "src": "/ar",
+      "src": "/ar/?$",
       "dest": "/ar/index.html"
     },
     {
@@ -19,7 +19,7 @@
       "dest": "/ar/$1"
     },
     {
-      "src": "/",
+      "src": "^/?$",
       "dest": "/en/index.html"
     },
     {
