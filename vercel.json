@@ -1,20 +1,30 @@
 {
+  "version": 2,
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@vercel/static-build",
+      "config": {
+        "distDir": "dist/momentadev/browser"
+      }
+    }
+  ],
   "routes": [
     {
       "src": "/ar",
-      "dest": "/momentadev/browser/ar/index.html"
+      "dest": "/ar/index.html"
     },
     {
       "src": "/ar/(.*)",
-      "dest": "/momentadev/browser/ar/$1"
+      "dest": "/ar/$1"
     },
     {
       "src": "/",
-      "dest": "/momentadev/browser/en/index.html"
+      "dest": "/en/index.html"
     },
     {
       "src": "/(.*)",
-      "dest": "/momentadev/browser/en/$1"
+      "dest": "/en/$1"
     }
   ]
 }
